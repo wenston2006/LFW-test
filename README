@@ -1,0 +1,11 @@
+LFW协议测试说明：
+参照 demo_LFW_test_adld.m 将变量nameFeatsMat的特征地址改为自己的特征地址即可运行。demo_LFW_test.m测试了keda，vgg两组数据。
+
+namePairTxt为LFW测试集列表地址，
+nameSampleTxt为样本列表地址，
+nameFeatsMat为所有样本特征；
+
+Type为计算相似度方法:
+	'Eu' 计算欧斯距离;
+	'cos'计算cosine距离;
+	'zzz'计算的欧式距离（仅用于keda数据）.
